@@ -1,7 +1,13 @@
 npm install @ngrx/store@14
+
 npm install @ngrx/effects@14
+
+
 npm install @ngrx/entity@14 
+
 ng add @ngrx/signals@17
+
+
 npm install @ngrx/store-devtools@14 --save --force
 
 # StoresSignals
