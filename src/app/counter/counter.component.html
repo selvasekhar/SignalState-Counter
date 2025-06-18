@@ -1,0 +1,23 @@
+<div class="container ">
+  <div class="row align-center">
+    <div class="col-sm-1">
+      <div class="alert alert-success">
+  <strong>{{ state.count() }}</strong>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <button class="btn btn-primary" (click)="onIncrement()">Increment</button>
+    </div>
+    <div class="col-sm-4">
+      <button class="btn btn-warning" (click)="onDecrement()">Decrement</button>
+    </div>
+    <div class="col-sm-4">
+      <button class="btn btn-success" (click)="onReset()">Reset</button>
+    </div>
+  </div>
+</div>
